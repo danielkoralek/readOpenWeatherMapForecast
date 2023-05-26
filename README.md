@@ -8,7 +8,8 @@ https://openweathermap.org/api
 
 ### Usage
 ```
-C:\dev\WeatherForecast> python .\getOpenWeatherForecast.py
+PS C:\dev\WeatherForecast> $Env:OpenWeatherKey = "your-api-key"
+PS C:\dev\WeatherForecast> python .\getOpenWeatherForecast.py
 ```
 
 Besides dumping the result, the script will output the data into a CSV file as follows:
